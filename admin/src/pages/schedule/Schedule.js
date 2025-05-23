@@ -1,12 +1,15 @@
 import React from 'react';
 import './Schedule.css';
+import Sidebar from '../../Sidebar';
 
 function Schedule() {
   return (
-    <div>
-      <h1>Shuttle Schedules</h1>
-      {/* TODO: Add schedule management functionality */}
-    </div>
+    <>
+      <Sidebar />
+      <div className="shuttle-schedule-page" style={{ marginLeft: 240 }}>
+
+      </div>
+    </>
   );
 }
 
